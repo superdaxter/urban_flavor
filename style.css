@@ -1,0 +1,28 @@
+body {
+	background-color: #497da6;
+}
+
+button {
+	padding: 20px;
+	font-family: "Red Hat Mono";
+}
+
+.container {
+	position: absolute;
+	margin: 0;
+	border-radius: 15px;
+	background-color: #69a9db;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn-container {
+	padding: 20px;
+}
+
+.title {
+	text-align: center;
+	font-family: Comfortaa;
+	color: #afd2ed;
+}
