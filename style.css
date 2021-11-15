@@ -8,12 +8,8 @@ a {
 	border-radius: 5px;
 }
 
-a:hover {
-	background-color: aliceblue;
-}
-
-.main-row {
-	align-items: center;
+p {
+	text-align: center;
 }
 
 .container {
@@ -21,22 +17,21 @@ a:hover {
 	margin: 0;
 	border-radius: 15px;
 	background-color: #69a9db;
-	top: 30%;
+	top: 40%;
 	left: 50%;
 	width: 80%;
 	transform: translate(-50%, -50%);
 }
 
-
 .button {
 	display: inline-block;
-	width: 75px;
+	width: auto;
 	text-align: center;
   	margin: 0;
   	padding: 0.75rem 1rem;
 	border: 0;
 	border-radius: 15px;
-	background-color: #aaa;
+	background-color: rgb(93, 121, 199);
 	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
@@ -49,6 +44,7 @@ a:hover {
 
 .button:hover {
 	opacity: 0.85;
+	background: rgb(52, 50, 131);
 }
 
 .button:active {
@@ -70,10 +66,9 @@ a:hover {
 	align-items: center;
 }
 
-.title {
+.sub-title {
 	text-align: center;
 	font-family: Comfortaa;
-	font-size: 50px;
+	font-size: 20px;
 	color: #afd2ed;
 }
-
