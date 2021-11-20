@@ -17,9 +17,9 @@ p {
 	margin: 0;
 	border-radius: 15px;
 	background-color: #69a9db;
-	top: 45%;
+	top: 50%;
 	left: 50%;
-	width: 80%;
+	width: 40%;
 	transform: translate(-50%, -50%);
 }
 
@@ -36,10 +36,7 @@ p {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 1rem;
-  	line-height: 1.5;
-	cursor: pointer;
-	-webkit-appearance: none;
-	-webkit-font-smoothing: antialiased;
+  	line-height: 1;
 }
 
 .button:hover {
@@ -62,7 +59,7 @@ p {
 }
 
 .btn-container {
-	padding: 20px;
+	padding: 10px;
 	align-items: center;
 }
 
