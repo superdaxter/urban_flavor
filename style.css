@@ -1,11 +1,10 @@
 body {
-	background-color: #497da6;
+	background-color: #000000;
 }
 
 a {
-	font-family: "Red Hat Mono";
-	font-size: 30px;
-	border-radius: 5px;
+	font-family: "VT323", monospace;
+	font-size: 25px;
 }
 
 p {
@@ -16,7 +15,7 @@ p {
 	position: absolute;
 	margin: 0;
 	border-radius: 15px;
-	background-color: #69a9db;
+	background-color: #1c1d1f;
 	top: 50%;
 	left: 50%;
 	width: 40%;
@@ -31,28 +30,22 @@ p {
   	padding: 0.75rem 1rem;
 	border: 0;
 	border-radius: 15px;
-	background-color: rgb(93, 121, 199);
-	color: #fff;
+	background-color: rgb(0, 0, 0);
+	color: rgb(18, 218, 18);
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 1rem;
   	line-height: 1;
 }
 
 .button:hover {
 	opacity: 0.85;
-	background: rgb(52, 50, 131);
+	background: rgb(213, 213, 216);
 }
 
 .button:active {
 	box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
 }
 
-.button:focus {
-	outline: thin dotted #444;
-	outline: 5px auto -webkit-focus-ring-color;
-	outline-offset: -2px;
-}
 
 .button_primary {
 	background-color: #1fa3ec;
@@ -65,7 +58,7 @@ p {
 
 .sub-title {
 	text-align: center;
-	font-family: Comfortaa;
+	font-family: 'Share Tech Mono', monospace;
 	font-size: 20px;
-	color: #afd2ed;
+	color: #ffffff;
 }
