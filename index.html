@@ -16,13 +16,19 @@
 <div class="container">
     <div class="row">
         <h4 class="sub-title">Search</h4>
-        <div class="col">
-            <p>
-                <input class="searchbar" type="text" placeholder="Google..">
-                <input class="searchbar" type="text" placeholder="DuckDuckGo..">
-            </p>
-            
+        <div class="search">
+            <div class="searchbarwrap">
+                <form action="https://google.com/search" method="get">
+                    <input class="searchbar" type="text" name="q" placeholder="Google..">
+                </form>
+            </div>
+            <div class="searchbarwrap">
+                <form action="https://duckduckgo.com/search" method="get">
+                    <input class="searchbar" type="text" name="q" placeholder="DuckDuckGo..">
+                </form>
+            </div>
         </div>
+
     </div>
     <div class="row">
         <h4 class="sub-title">Media</h4>

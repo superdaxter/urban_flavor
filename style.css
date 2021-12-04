@@ -24,7 +24,7 @@ p {
 	background-color: #1c1d1f;
 	top: 50%;
 	left: 50%;
-	width: 30%;
+	width: 75%;
 	transform: translate(-50%, -50%);
 }
 
@@ -43,6 +43,16 @@ p {
 .button:hover {
 	opacity: 0.85;
 	background: #4d4d4d;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+}
+
+.searchbarwrap {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .searchbar {
