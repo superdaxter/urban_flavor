@@ -1,5 +1,5 @@
 body {
-	background-color: #000000;
+	background-color: #f1f1f1;
 }
 
 a {
@@ -15,17 +15,18 @@ p {
 	text-align: center;
 	font-family: 'Share Tech Mono', monospace;
 	font-size: 20px;
-	color: #ffffff;
+	color: #000000;
 }
 
 .container {
 	position: absolute;
 	border-radius: 30px;
-	background-color: #1c1d1f;
+	background-color: #b2b2c2;
 	top: 50%;
 	left: 50%;
 	width: 75%;
 	transform: translate(-50%, -50%);
+	box-shadow: 3px 3px 10px #b2b2c2;
 }
 
 .button {
@@ -34,10 +35,11 @@ p {
   	margin-bottom: 10px;
   	padding: 0.75rem 1rem;
 	border-radius: 15px;
-	background-color: #000000;
-	color: #12da12;
+	background-color: #808080;
+	color: #ffffff;
 	text-decoration: none;
 	font-weight: 500;
+	box-shadow: 3px 3px 10px #808080;
 }
 
 .button:hover {
@@ -58,18 +60,18 @@ p {
 .searchbar {
 	font-family: "VT323", monospace;
 	font-size: 25px;
-	background-color: #000000;
+	background-color: #808080;
 	color: #ffffff;
-	border-color: black;
+	border-color: #808080;
 	border-width: 1px;
 	border-radius: 15px;
 	border-style: solid;
 	padding: 5px;
-	box-shadow: 3px 3px 10px rgb(71, 58, 58);
+	box-shadow: 3px 3px 10px #808080;
 }
 
 .searchbar:focus {
-	border-color: white;
+	border-color: #808080;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,16 +85,28 @@ p {
 	}
 
 	.container {
-		background-color: #1c1d1f;
+		background-color: #1c1c1c;
+		box-shadow: 3px 3px 10px #1c1c1c;
 	}
 	
 	.button {
 		background-color: #000000;
 		color: #12da12;
+		box-shadow: 3px 3px 10px #000000;
 	}
 	
 	.button:hover {
 		background: #4d4d4d;
 	}
 
+	.searchbar {
+		background-color: #000000;
+		color: #ffffff;
+		border-color: black;
+		box-shadow: 3px 3px 10px #000000;
+	}
+	
+	.searchbar:focus {
+		border-color: white;
+	}
 }
