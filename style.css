@@ -1,14 +1,13 @@
 @font-face {
-	font-family: "VictorMono";
-	src: url("font/VictorMono-Regular.ttf");
+  font-family: "VictorMono";
+  src: url("font/VictorMono-Regular.ttf");
 }
 
 body {
-	/* background-color: #efe2ba; */
-	background-image: url('img/MacSonoma.jpg');
-	font-family: "VictorMono";
-	transition: all 2s;
-	animation: ani2 15s infinite;
+  background-image: url("img/MacSonoma.jpg");
+  font-family: "VictorMono";
+  transition: all 2s;
+  animation: ani2 15s infinite;
 }
 
 /* color scheme */
@@ -19,82 +18,92 @@ body {
 /* 282828 */
 
 img {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 .main-box {
-	background-color: #d79922;
-	background-image: url('img/MacMonterey.jpg');
-	/* backdrop-filter: blur(4px); */
-	/* box-shadow: 3px 3px 10px #b2b2c2; */
-	width: 75%;
-	margin: auto;
-	margin-top: 10px;
-	border-radius: 15px;
-	border-style: dashed;
-	border-color: #c5cbe3;
-	border-width: 5px;
-	animation: ani1 infinite 20s;
+  background-color: #d79922;
+  background-image: url("img/MacMonterey.jpg");
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: #c5cbe3;
+  border-width: 5px;
+  animation: ani1 infinite 20s;
 }
 
 @keyframes ani1 {
-	25% {background-position: center;}
+  25% {
+    background-position: center;
+  }
 }
 
 @keyframes ani2 {
-	25% {background-position: center;}
+  25% {
+    background-position: center;
+  }
 }
 
 .sub-title {
-	text-align: center;
-	color: white;
+  text-align: center;
+  color: white;
 }
 
 .links {
-	justify-content: center;
-	background-color:#4056a1;
-	color: white;
-	width: 150px;
-	margin: 5px;
-	padding: 5px;
-	/* border-color: white; */
-	/* border-width: 2px; */
-	/* border-radius: 20px; */
-	transition: all 500ms;
+  justify-content: center;
+  background-color: #4056a1;
+  color: white;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  transition: all 500ms;
 }
 
 .links:hover {
-	color: rgb(182, 182, 175);
-	background-color: #f13c20;
-	width: 165px;
+  color: rgb(182, 182, 175);
+  background-color: #f13c20;
+  width: 165px;
 }
 
 .link-hub {
-	/* border: 2px solid grey; */
-	min-width: 200px;
-	/* background-color: #c5cbe3; */
-	/* border-radius: 12px; */
-	margin: 5px;
+  min-width: 200px;
+  margin: 5px;
 }
 
 .search {
-	display: flex;
-	justify-content: center;
-	margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.search-engine {
+  justify-content: center;
+  background-color: #ffffffb2;
+  width: 330px;
+  margin: 5px;
+  padding: 10px;
+  transition: all 500ms;
+  border-radius: 30px;
+}
+
+.search-engine:hover {
+  background-color: #ffffff;
+  width: 360px;
 }
 
 .searchbar {
-	background-color: rgba(130, 116, 186, 0.5);
-	color: #ffffff;
-	/* border-radius: 10px; */
-	margin: 10px;
-	text-align: center;
+  background-color: rgba(130, 116, 186, 0.5);
+  color: #ffffff;
+  margin: 10px;
+  text-align: center;
 }
 
 .searchbar:focus {
-	border-color: white;
+  border-color: white;
 }
 
 .col-align {
-	text-align: center;
+  text-align: center;
 }
